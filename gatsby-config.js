@@ -3,9 +3,9 @@ module.exports = {
     title: `Al - Blog`,
     author: {
       name: `Alain Burindi`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `who uses technology to build useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog by Alain Burindi for programming enthousiasts`,
     siteUrl: `https://alainb.dev/`,
     social: {
       twitter: `alainburindi`,
@@ -121,7 +121,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/site-icon.jpg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
