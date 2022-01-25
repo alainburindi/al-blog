@@ -5,7 +5,7 @@ module.exports = {
       name: `Alain Burindi`,
       summary: `who uses technology to build useful things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog by Alain Burindi for programming enthousiasts`,
     siteUrl: `https://alainb.dev/`,
     social: {
       twitter: `alainburindi`,

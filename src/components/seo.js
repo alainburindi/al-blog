@@ -21,6 +21,9 @@ const Seo = ({ description, lang, meta, title }) => {
             social {
               twitter
             }
+            author {
+              name
+            }
           }
         }
       }
@@ -28,7 +31,7 @@ const Seo = ({ description, lang, meta, title }) => {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const defaultTitle = site.siteMetadata?.author?.name
 
   return (
     <Helmet
